@@ -1,0 +1,70 @@
+body, ul, li, p {
+    Margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+   
+body{
+    background-color: rgb(200, 160, 221);
+    margin: 0px auto;
+}
+
+.menu{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: rgb(105, 105, 105);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS GRID 1*/
+
+.grid1 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0px auto;
+    grid-gap: 20px;
+}
+
+.box {
+    width: 250px;
+    height: 400px;
+    background: white;
+}
+
+
+
+    
+    
